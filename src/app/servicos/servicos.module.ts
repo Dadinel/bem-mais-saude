@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ServicosComponent } from './servicos.component';
-import { ServicosRoutingModule } from './Servicos-routing.module';
+import { ServicosRoutingModule } from './servicos-routing.module';
 import { PoModule } from '@portinari/portinari-ui';
 
 @NgModule({
