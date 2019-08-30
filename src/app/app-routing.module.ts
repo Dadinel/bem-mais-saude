@@ -35,6 +35,11 @@ const routes: Routes = [
     path: 'quem-somos'
   , loadChildren: () => import('./quem-somos/quem-somos.module').then( m => m.QuemSomosModule )
   }
+  ,
+  {
+    path: 'servicos'
+  , loadChildren: () => import('./servicos/servicos.module').then( m => m.ServicosModule )
+  }
 ];
 
 @NgModule({

@@ -15,11 +15,7 @@ export class AppComponent {
     { label: 'Missão', link: 'missao'},
     { label: 'Valores', link: 'valores'},
     { label: 'Galeria', link: 'galeria' },
-    { label: 'Contato', link: 'contato' }
+    { label: 'Serviços', link: 'servicos' },
+    { label: 'Contato', link: 'contato' },
   ];
-
-  private onClick() {
-    alert('Clicked in menu item');
-  }
-
 }
