@@ -10,7 +10,7 @@ import { PoMenuItem } from '@portinari/portinari-ui';
 export class AppComponent {
 
   readonly menus: Array<PoMenuItem> = [
-    { label: 'Home', link: 'home'},
+    { label: 'Home', link: '/'},
     { label: 'Quem somos', link: 'quem-somos'},
     { label: 'Missão', link: 'missao'},
     { label: 'Valores', link: 'valores'},
